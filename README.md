@@ -6,4 +6,13 @@ Design goals:
 - Prevent overlap between the recipe icon and module slots.
 - Scale module slots based on collision box area.
 - Create "square packings" of module slots.
-- Fix module rendering going outside the bounding box of the machine.
+- Fix module rendering going outside the bounding box of the machine with 20+ module slots.
+- Supports all mods.
+
+## Old
+
+![](https://assets-mod.factorio.com/assets/c54a89332e53b886be7f9e73ba897d16430cb668.png)
+
+## New
+
+![](https://assets-mod.factorio.com/assets/1cbbe795b03ee70fe8d5eb46c165ea712277cb4b.png)
