@@ -1,0 +1,9 @@
+---------------------------------------------------------------------------------------------------
+Version: 1.0.0
+Date: 2024-11-15
+  Features:
+    - Added license
+    - Added README.md
+    - Initial release
+  Graphics:
+    - Added mod thumbnail
