@@ -49,7 +49,7 @@ local function scale_module_alt_icons(machine, inventory_index)
     if not module_slots or module_slots == 0 then return end
 
     local scale_factors = {1}
-    for i = 1, 20 do scale_factors[i + 1] = scale_factors[i] * 0.95 end
+    for i = 1, 40 do scale_factors[i + 1] = scale_factors[i] * 0.95 end
 
     if width > 4 then table.insert(scale_factors, 1, 1.25) end
     if width > 5 then table.insert(scale_factors, 1, 1.5) end
@@ -116,7 +116,7 @@ for _, lab in pairs(data.raw.lab) do
     for _, positioning in pairs(lab.icons_positioning or {}) do
         if positioning.inventory_index == defines.inventory.lab_input then
             local scale = 1
-            
+
             local x1, y1, x2, y2 = collision_box(lab)
             if not x1 then return end
             local width, height = x2 - x1, y2 - y1
@@ -124,7 +124,7 @@ for _, lab in pairs(data.raw.lab) do
 
             local module_alt_mode_width = positioning.separation_multiplier or 1.1 -- width and height of the module icon in tiles
             local scale = math.min(1.5, (width * 0.8) / module_alt_mode_width / positioning.max_icons_per_row)
-            
+
             positioning.shift = {0, -0.5 * scale}
             positioning.scale = scale
         end
