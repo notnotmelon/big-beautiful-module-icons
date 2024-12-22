@@ -1,4 +1,9 @@
 ---------------------------------------------------------------------------------------------------
+Version: 1.0.2
+Date: 2024-12-22
+  Bugfixes:
+    - Add support smaller module icons, for when you have A LOT of module slots. Resolves [#1](https://github.com/notnotmelon/big-beautiful-module-icons/issues/1)
+---------------------------------------------------------------------------------------------------
 Version: 1.0.1
 Date: 2024-11-15
   Graphics:
