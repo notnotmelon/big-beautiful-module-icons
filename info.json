@@ -6,7 +6,7 @@
   "homepage": "https://github.com/notnotmelon/big-beautiful-module-icons",
   "description": "Tired of needing a microscope to view modules in ALT-mode? Annoyed that the modules clip into other alt mode icons? Installed a \"\"\"balanced\"\"\" mod that adds 100s of module slots? Big Beautiful Module Icons automatically rescales and repositions module icon alt-mode draw specifications with sensible defaults.",
   "factorio_version": "2.0",
-  "dependencies": [],
+  "dependencies": ["(?) more-module-slots", "(?) configurable-beacons"],
   "quality_required": false,
   "rail_bridges_required": false,
   "space_travel_required": false,
