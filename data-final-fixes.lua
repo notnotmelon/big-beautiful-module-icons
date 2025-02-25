@@ -123,7 +123,8 @@ for _, lab in pairs(data.raw.lab) do
             local area = width * height
 
             local module_alt_mode_width = positioning.separation_multiplier or 1.1 -- width and height of the module icon in tiles
-            local scale = math.min(1.5, (width * 0.8) / module_alt_mode_width / positioning.max_icons_per_row)
+            positioning.max_icons_per_row = positioning.max_icons_per_row or 6
+            scale = math.min(1.5, (width * 0.8) / module_alt_mode_width / positioning.max_icons_per_row)
 
             positioning.shift = {0, -0.5 * scale}
             positioning.scale = scale
